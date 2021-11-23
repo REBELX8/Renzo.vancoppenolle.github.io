@@ -71,11 +71,15 @@ body {
     width: 33%;
     padding: 20px;
     background-image:url(Images/natuurlijk-persoon.jpg);
+    background-repeat:no-repeat;
+
 }
 .img{
     width:100%;
     padding: 20px;
-    background-image:url(Images/maltezer-puppy-kopen.jpg)
+    background-image:url(Images/maltezer-puppy-kopen.jpg);
+    background-repeat:no-repeat;
+
 }
 .card {
     background-color: white;
