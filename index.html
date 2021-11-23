@@ -2,157 +2,98 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title> Renzo Vancoppenolle Persoonlijke pagina </title>
-    <link rel="stylesheet" href="Stylesheet.css">
-   
-
+    <title> Homepage</title>
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-<main>
-    <h1> Personal information section</h1>
 
-         <p>Full name: Gérar slips</p>
-         <p>Adress: zeevissers laan 31 A</p>
-         <p>Phone number: 0499 13 13 23</p>
-         <p>Email adress:<a href="mailto:Gérar.slips@gmail.com">Gérar.slips@gmail.com</a></p>
-         <p><img src="https://cn.i.cdn.ti-platform.com/content/241/showpage/regular-show/nl/regularshow-200x200.png" alt="profielfoto"></p>
-</main>
-<footer>
-<h2> Hobbies </h2>
+<div class="header">
+    <h1>My Personal Website</h1>
+    <p>Personal homepage CSS EN HTML</p>
+</div>
 
-        <p>Eerste ploeg sporting Keiem , positie 6 , spelverdeler <a href="https://www.facebook.com/sportingkeiemjeugd"><br>Voetbal Keiem</a></p>
+<div class="topnav">
+    <a href="index.html">Homepage</a>
+    <a href="likes.html">Likes</a>
+    <a href="hobbys.html">Hobbies</a>
+    <a href="Vrienden.html">Vrienden</a>
+    <a href="#" style="float:right">Link</a>
+</div>
 
-        <img src="data:image/jpeg;base64,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" alt="logo">
+<div class="row">
+    <div class="left">
+        <div class="card">
+            <h2>Persoonlijke gegevens</h2>
+            <h5>Full name: Renzo Vancoppenolle </h5>
+            <h5>Adres: Oude Keiemweg 26 </h5>
+            <h5>Phone number: 0499 13 13 23</h5>
+            <h5>Email adress:<a href="mailto:renzo.vancoppenolle@gmail.com">renzo.vancoppenolle@gmail.com</a></h5>
+            <div class="fakeimg" style="height:350px;">
 
-        <p>Ik geef leiding aan de speelclub,8-10 jaar oud  <a href="https://www.facebook.com/chiro.keiem"><br>Chiro keiem</a></p>
-
-        <img src="https://www.topmen.be/wp-content/uploads/2016/01/Chiro-logo.jpg"  alt="logo chiro keiem">
-
-        <p> Moutainbiken met mijn vader. Iedere zaterdag nammidag<a href="https://www.routeyou.com/nl-be/route/view/194024/mountainbikeroute/mtb-koekelare-rode-lus"><br>Moutainbiken</a></p>>
-
-        <img src="https://15eurologos.nl/wp-content/uploads/2017/02/logo-mountainbike-300x272.png" alt="moutainbiken">
-</footer>
-<footer>
-<h2> Likes </h2>
-
-        <p> Favorite bands: Queen <a href="https://nl.wikipedia.org/wiki/Queen"> <br>Music band </a></p>
-        <p> Favorite music: Hardstyle,rock, drum & bass<a href="https://www.youtube.com/watch?v=Hd6PEDuROb0"> <br>Music </a></p>
-        <p> Favorite movie/serie:<a href="https://www.netflix.com/title/81040344"><br>Squid games</a></p>
-
-</footer>
-<table>
-    <caption>Score van leerlingen</caption>
-    <thead>
-    <tr>
-        <th>Student</th>
-        <th>Exel</th>
-        <th>Computer Systems</th>
-        <th>Systems managements</th>
-    </tr>
-    <tr>
-        <td><br/>Renzo</td>
-        <td><br/>14/20</td>
-        <td><br/>12/20</td>
-        <td><br/>13/20</td>
-    </tr>
-    <tr>
-        <td><br/>Lian</td>
-        <td><br/>10/20</td>
-        <td><br/>8/20</td>
-        <td><br/>5/20</td>
-    </tr>
-    <tr>
-        <td><br/>Vince</td>
-        <td><br/>17/20</td>
-        <td><br/>18/20</td>
-        <td><br/>16/20</td>
-    </tr>
-    <tr>
-        <td><br/>Robin</td>
-        <td><br/>12/20</td>
-        <td><br/>14/20</td>
-        <td><br/>15/20</td>
-    </tr>
-</table>
-</body>
-<h2> Vrienden </h2>
-<div class="datagrid">
-    <table>
-    <thead>
-    <tr>
-        <th>Voornaam</th>
-        <th>Familie naam</th>
-        <th>Postcode</th>
-        <th>Gemeente</th>
-        <th>Land</th>
-    </tr>
-    </thead>
-    <tfoot>
-    <tr>
-        <td colspan="5">
-            <div id="paging">
-
-                <a href="#"><span>Previous</span></a>
-                <a href="#" class="active"><span>1</span></a>
-                <a href="#"><span>2</span></a>
-                <a href="#"><span>3</span></a>
-                <a href="#"><span>4</span></a>
-                <a href="#"><span>5</span></a>
-                <a href="#"><span>Next</span></a>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Score van leerlingen </h2>
+            <table>
+                <thead>
+                <tr>
+                    <th>Student</th>
+                    <th>Exel</th>
+                    <th>Computer Systems</th>
+                    <th>Systems managements</th>
+                </tr>
+                <tr>
+                    <td><br/>Renzo</td>
+                    <td><br/>14/20</td>
+                    <td><br/>12/20</td>
+                    <td><br/>13/20</td>
+                </tr>
+                <tr>
+                    <td><br/>Lian</td>
+                    <td><br/>10/20</td>
+                    <td><br/>8/20</td>
+                    <td><br/>5/20</td>
+                </tr>
+                <tr>
+                    <td><br/>Vince</td>
+                    <td><br/>17/20</td>
+                    <td><br/>18/20</td>
+                    <td><br/>16/20</td>
+                </tr>
+                <tr>
+                    <td><br/>Robin</td>
+                    <td><br/>12/20</td>
+                    <td><br/>14/20</td>
+                    <td><br/>15/20</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="right">
+        <div class="card">
+            <h2>Over mij</h2>
+            <div class="img" style="height:450px;"></div>
+            <p>1 broer dario, 1 hond dribbel</p>
+        </div>
+        <div class="card">
+            <h3>Vorige scholen </h3>
+            <div class="imgvti" style="height:300px;"></div>
+            <div class="imgcollege" style="height:300px;"></div>
+        </div>
+        <div class="card">
+            <h3>Follow Me</h3>
+            <p>  <a href="https://www.instagram.com/renzovancoppenolle/?hl=nl">on instagram</a></p>
+            <p>  <a href="https://www.facebook.com/renzo.vancoppenolle">on facebook </a></p>
+            <p> <a href="https://twitter.com/RenzoVancoppen1">on twitter </a></p>
+            <p>  <a href="https://www.youtube.com/channel/UCXwqTRpa1URdVhPlNuKZNvw">on youtube </a></p>
 
         </div>
-    </tr>
-    </tfoot>
-    <tbody>
-    <tr>
-        <td>Dylan</td>
-        <td>Vancoppenolle</td>
-        <td>8600</td>
-        <td>Keiem</td>
-        <td>België</td>
-
-    </tr>
-    <tr class="alt">
-        <td>Evy</td>
-        <td>Sweals</td>
-        <td>8650</td>
-        <td>Houthulst</td>
-        <td>België</td>
-
-    </tr>
-    <tr>
-        <td>Seppe</td>
-        <td>Vanacker</td>
-        <td>8600</td>
-        <td>Woumen</td>
-        <td>België</td>
-
-    </tr>
-    <tr class="alt">
-        <td>Jenna</td>
-        <td>Verslype</td>
-        <td>8600</td>
-        <td>Keiem</td>
-        <td>België</td>
-
-    </tr>
-    <tr>
-        <td>Jarne</td>
-        <td>Vandenbussche</td>
-        <td>8600</td>
-        <td>Keiem</td>
-        <td>België</td>
-
-    </tr>
-    <tr>
-        <td>Abda</td>
-        <td>oerkroi</td>
-        <td>8520</td>
-        <td>Kuurne</td>
-        <td>Iran</td>
-
-    </tr>
-    </tbody>
-</table>
+    </div>
 </div>
+
+<div class="footer">
+    <h2>Renzo Vancoppenolle </h2>
+</div>
+
+</body>
 </html>
